@@ -65,7 +65,7 @@ If you're new here, this is the recommended learning path:
 
 ### Build your own `Fine-tuning / RLHF Pipeline`
 
-* [**Code LoRA from Scratch (Lightning AI)**](https://lightning.ai/lightning-ai/studios/code-lora-from-scratch) - Sebastian Raschka's interactive studio explaining LoRA by coding it from scratch in PyTorch [Python / PyTorch]
+* [**Code LoRA from Scratch (Lightning AI)**](https://lightning.ai/lightning-ai/environments/code-lora-from-scratch) - Sebastian Raschka's interactive studio explaining LoRA by coding it from scratch in PyTorch [Python / PyTorch]
 * [**LoRA from Scratch**](https://github.com/sunildkumar/lora_from_scratch) - Implements Low-Rank Adaptation finetuning from scratch, guided step-by-step by the original LoRA paper [Python / PyTorch]
 * [**LLMs-from-scratch: DPO from Scratch**](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb) - Sebastian Raschka's notebook implementing Direct Preference Optimization from scratch [Python / PyTorch]
 * [**Direct Preference Optimization from Scratch in PyTorch**](https://github.com/0xallam/Direct-Preference-Optimization) - Clean PyTorch implementation of DPO replacing RLHF's reward model with a simple preference loss [Python / PyTorch]
@@ -136,8 +136,8 @@ If you're new here, this is the recommended learning path:
 * [**Learn RAG from Scratch (freeCodeCamp)**](https://www.freecodecamp.org/news/mastering-rag-from-scratch) - In-depth course by a LangChain engineer covering RAG fundamentals [Python]
 * [**7 Steps to Build a Simple RAG System from Scratch**](https://www.kdnuggets.com/7-steps-to-build-a-simple-rag-system-from-scratch) - KDnuggets step-by-step guide [Python]
 * [**Foundations of RAG Systems**](https://www.dailydoseofds.com/a-crash-course-on-building-rag-systems-part-1-with-implementations/) - Crash course on building RAG systems with implementations [Python]
-* [**LangChain RAG Tutorial**](https://python.langchain.com/docs/tutorials/rag/) - Official LangChain tutorial building a RAG app in ~40 lines of code [Python / LangChain]
-* [**Building RAG from Scratch (LlamaIndex)**](https://docs.llamaindex.ai/en/stable/examples/low_level/oss_ingestion_retrieval/) - Low-level RAG implementation using open-source components [Python / LlamaIndex]
+* [**LangChain RAG Tutorial**](https://docs.langchain.com/oss/python/langchain/rag) - Official LangChain tutorial building a RAG app in ~40 lines of code [Python / LangChain]
+* [**Building RAG from Scratch (LlamaIndex)**](https://developers.llamaindex.ai/python/examples/low_level/oss_ingestion_retrieval/) - Low-level RAG implementation using open-source components [Python / LlamaIndex]
 
 ### Build your own `Embedding Model`
 
@@ -154,7 +154,7 @@ If you're new here, this is the recommended learning path:
 * [**Building a Vector Database from Scratch in Python**](https://osamadev.medium.com/building-a-vector-database-from-scratch-in-python-eb81c56e03fb) - Full implementation of a vector database in pure Python [Python]
 * [**Build a Vector Search Engine with FAISS**](https://hackernoon.com/build-a-vector-search-engine-in-python-with-faiss-and-sentence-transformers) - Production-grade vector search from embedding generation through FAISS indexing to retrieval [Python / FAISS]
 * [**Introduction to FAISS (Pinecone)**](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/) - Deep tutorial series covering IndexFlatL2, IVF, product quantization, and GPU acceleration [Python / FAISS]
-* [**Building a Semantic Search Engine**](https://huggingface.co/learn/nlp-course/chapter5/6) - Hugging Face NLP Course chapter on building semantic search with embeddings [Python]
+* [**Building a Semantic Search Engine**](https://huggingface.co/learn/llm-course/chapter5/6) - Hugging Face NLP Course chapter on building semantic search with embeddings [Python]
 * [**Faiss**](https://github.com/facebookresearch/faiss) - Facebook AI Similarity Search — study the source for efficient vector search algorithms [C++ / Python]
 * [**txtai**](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search — study how semantic search is built [Python]
 * [**Qdrant**](https://github.com/qdrant/qdrant) - High-performance vector similarity search engine — learn vector DB internals from the source [Rust]
@@ -170,7 +170,7 @@ If you're new here, this is the recommended learning path:
 ### Build your own `Text-to-Speech`
 
 * [**Build Text-to-Speech from Scratch**](https://medium.com/@tttzof351/build-text-to-speech-from-scratch-part-1-ba8b313a504f) - Multi-part tutorial building a transformer-based TTS model from scratch using LJSpeech [Python / PyTorch]
-* [**Text-to-Speech with Tacotron2 (PyTorch Tutorial)**](https://pytorch.org/audio/stable/tutorials/tacotron2_pipeline_tutorial.html) - Official torchaudio tutorial building the full TTS pipeline: text to spectrogram to waveform [Python / PyTorch]
+* [**Text-to-Speech with Tacotron2 (PyTorch Tutorial)**](https://docs.pytorch.org/audio/stable/tutorials/tacotron2_pipeline_tutorial.html) - Official torchaudio tutorial building the full TTS pipeline: text to spectrogram to waveform [Python / PyTorch]
 * [**NVIDIA Tacotron 2**](https://github.com/NVIDIA/tacotron2) - NVIDIA's PyTorch implementation of Tacotron 2 with faster-than-realtime inference [Python / PyTorch]
 * [**VITS**](https://github.com/jaywalnut310/vits) - Official implementation of end-to-end TTS combining variational inference, normalizing flows, and adversarial training [Python / PyTorch]
 * [**VITS Training Tutorial**](https://github.com/Pipe1213/VITS_Tutorial) - Step-by-step guide on training VITS from scratch using your own dataset [Python / PyTorch]
@@ -222,8 +222,8 @@ If you're new here, this is the recommended learning path:
 ### Build your own `Autonomous Agent (RL)`
 
 * [**Spinning Up in Deep RL**](https://github.com/openai/spinningup) - OpenAI's educational resource with clean implementations of VPG, TRPO, PPO, DDPG, TD3, SAC [Python / PyTorch]
-* [**Reinforcement Learning (DQN) Tutorial**](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html) - Official PyTorch tutorial training a DQN agent on CartPole [Python / PyTorch]
-* [**Reinforcement Learning (PPO) with TorchRL**](https://pytorch.org/tutorials/intermediate/reinforcement_ppo.html) - Official PyTorch tutorial implementing PPO for the Inverted Pendulum [Python / PyTorch]
+* [**Reinforcement Learning (DQN) Tutorial**](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html) - Official PyTorch tutorial training a DQN agent on CartPole [Python / PyTorch]
+* [**Reinforcement Learning (PPO) with TorchRL**](https://docs.pytorch.org/tutorials/intermediate/reinforcement_ppo.html) - Official PyTorch tutorial implementing PPO for the Inverted Pendulum [Python / PyTorch]
 * [**Q-Learning from Scratch in Python**](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) - Tabular Q-learning from scratch, showing every step from state space design to convergence [Python / Gymnasium]
 * [**Teach AI to Play Snake — RL with PyTorch**](https://www.python-engineer.com/posts/teach-ai-snake-reinforcement-learning/) - 4-part series building a DQN agent that learns to play Snake with Pygame [Python / PyTorch / Pygame]
 * [**CleanRL**](https://github.com/vwxyzjn/cleanrl) - Single-file implementations of RL algorithms with tracked experiments [Python / PyTorch]
@@ -233,11 +233,11 @@ If you're new here, this is the recommended learning path:
 
 ### Build your own `Translator`
 
-* [**NLP From Scratch: Translation with Seq2Seq and Attention**](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Official PyTorch tutorial implementing encoder-decoder with Bahdanau attention for translation [Python / PyTorch]
+* [**NLP From Scratch: Translation with Seq2Seq and Attention**](https://docs.pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Official PyTorch tutorial implementing encoder-decoder with Bahdanau attention for translation [Python / PyTorch]
 * [**Sequence to Sequence Learning with Neural Networks**](https://github.com/bentrevett/pytorch-seq2seq) - 6 notebooks progressing from basic seq2seq to full Transformer for translation [Python / PyTorch]
 * [**Neural Machine Translation with Transformer (TensorFlow)**](https://www.tensorflow.org/text/tutorials/transformer) - Full Transformer from scratch for Portuguese-to-English translation [Python / TensorFlow]
 * [**The Annotated Transformer**](https://nlp.seas.harvard.edu/annotated-transformer/) - Harvard NLP's annotated implementation — the original Transformer was built for translation [Python / PyTorch]
-* [**Language Translation with nn.Transformer**](https://pytorch.org/tutorials/beginner/translation_transformer.html) - Official PyTorch tutorial building a translation model with Transformer [Python / PyTorch]
+* [**Language Translation with nn.Transformer**](https://docs.pytorch.org/tutorials/beginner/translation_transformer.html) - Official PyTorch tutorial building a translation model with Transformer [Python / PyTorch]
 * [**Helsinki-NLP/Opus-MT**](https://github.com/Helsinki-NLP/Opus-MT) - Open neural machine translation models — study how production translation systems work [Python]
 * [**fairseq**](https://github.com/facebookresearch/fairseq) - Facebook AI Research's sequence-to-sequence toolkit with translation models [Python / PyTorch]
 
