@@ -83,8 +83,6 @@ If you're new here, this is the recommended learning path:
 * [**Whisper**](https://github.com/openai/whisper) - OpenAI's open-source speech recognition model — study the architecture to understand modern ASR [Python / PyTorch]
 * [**Build Your Own Voice Assistant (Whisper + Ollama + Bark)**](https://medium.com/@vndee.huynh/build-your-own-voice-assistant-and-run-it-locally-whisper-ollama-bark-c80e6f815cba) - End-to-end local voice assistant combining STT, LLM, and TTS [Python / Whisper / Bark / Ollama]
 * [**Build Your Own Private Voice Assistant (freeCodeCamp)**](https://www.freecodecamp.org/news/private-voice-assistant-using-open-source-tools/) - Privacy-first voice assistant using entirely open-source tools [Python]
-* [**Coqui TTS**](https://github.com/coqui-ai/TTS) - Deep learning toolkit for text-to-speech — train TTS models from scratch on your own data [Python / PyTorch]
-* [**VITS from Scratch**](https://github.com/jaywalnut310/vits) - End-to-end text-to-speech model combining variational inference, normalizing flows, and adversarial training [Python / PyTorch]
 * [**Real-Time Voice Cloning**](https://github.com/CorentinJ/Real-Time-Voice-Cloning) - Clone a voice in 5 seconds — three-stage pipeline: speaker encoder, synthesizer, vocoder [Python / PyTorch]
 * [**Speech Recognition in Python**](https://thepythoncode.com/article/speech-recognition-in-python) - Comprehensive tutorial on building speech recognition systems from scratch [Python]
 
@@ -94,7 +92,6 @@ If you're new here, this is the recommended learning path:
 * [**Training a Code-Generating LLM from Scratch**](https://medium.com/@wasiullah01/training-a-code-generating-llm-from-scratch-aff11c135733) - Specializing GPT-2 on GitHub code to understand code patterns and API usage [Python / PyTorch / HuggingFace]
 * [**tabby**](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant — study the architecture of a code completion system [Rust / Python]
 * [**Continue**](https://github.com/continuedev/continue) - Open-source AI code assistant — study how an IDE copilot is built [TypeScript / Python]
-* [**Awesome-Code-LLM**](https://github.com/codefuse-ai/Awesome-Code-LLM) - Curated list of code LLM research: datasets, architectures, and training recipes [Multi-framework]
 * [**Build an AI Agent in Python**](https://www.boot.dev/courses/build-ai-agent-python) - Boot.dev course building an AI agent that can write and execute code [Python]
 
 ### Build your own `AI Agent`
@@ -172,37 +169,6 @@ If you're new here, this is the recommended learning path:
 * [**The Attention Mechanism from Scratch**](https://machinelearningmastery.com/the-attention-mechanism-from-scratch/) - Implementing the general attention mechanism with NumPy [Python / NumPy]
 * [**Building Transformer Models from Scratch (10-Day Mini-Course)**](https://machinelearningmastery.com/building-transformer-models-from-scratch-with-pytorch-10-day-mini-course/) - Each lesson covers a specific transformer component with PyTorch implementation [Python / PyTorch]
 
-### Build your own `Autonomous Agent (RL)`
-
-* [**Spinning Up in Deep RL**](https://github.com/openai/spinningup) - OpenAI's educational resource with clean implementations of VPG, TRPO, PPO, DDPG, TD3, SAC [Python / PyTorch]
-* [**Reinforcement Learning (DQN) Tutorial**](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html) - Official PyTorch tutorial training a DQN agent on CartPole [Python / PyTorch]
-* [**Reinforcement Learning (PPO) with TorchRL**](https://pytorch.org/tutorials/intermediate/reinforcement_ppo.html) - Official PyTorch tutorial implementing PPO for the Inverted Pendulum [Python / PyTorch]
-* [**Q-Learning from Scratch in Python**](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) - Tabular Q-learning from scratch, showing every step from state space design to convergence [Python / Gymnasium]
-* [**Teach AI to Play Snake — RL with PyTorch**](https://www.python-engineer.com/posts/teach-ai-snake-reinforcement-learning/) - 4-part series building a DQN agent that learns to play Snake with Pygame [Python / PyTorch / Pygame]
-* [**CleanRL**](https://github.com/vwxyzjn/cleanrl) - Single-file implementations of RL algorithms with tracked experiments [Python / PyTorch]
-* [**Policy Gradient with PyTorch**](https://huggingface.co/blog/deep-rl-pg) - Hugging Face Deep RL Course chapter implementing REINFORCE from scratch [Python / PyTorch]
-* [**Deep Reinforcement Learning Course**](https://huggingface.co/learn/deep-rl-course/unit0/introduction) - Hugging Face's free course from fundamentals to advanced RL [Python / PyTorch]
-* [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) - Standard API for RL environments — build and test your own agents [Python]
-
-### Build your own `Translator`
-
-* [**NLP From Scratch: Translation with Seq2Seq and Attention**](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Official PyTorch tutorial implementing encoder-decoder with Bahdanau attention for translation [Python / PyTorch]
-* [**Sequence to Sequence Learning with Neural Networks**](https://github.com/bentrevett/pytorch-seq2seq) - 6 notebooks progressing from basic seq2seq to full Transformer for translation [Python / PyTorch]
-* [**Neural Machine Translation with Transformer (TensorFlow)**](https://www.tensorflow.org/text/tutorials/transformer) - Full Transformer from scratch for Portuguese-to-English translation [Python / TensorFlow]
-* [**The Annotated Transformer**](https://nlp.seas.harvard.edu/annotated-transformer/) - Harvard NLP's annotated implementation — the original Transformer was built for translation [Python / PyTorch]
-* [**Language Translation with nn.Transformer**](https://pytorch.org/tutorials/beginner/translation_transformer.html) - Official PyTorch tutorial building a translation model with Transformer [Python / PyTorch]
-* [**Helsinki-NLP/Opus-MT**](https://github.com/Helsinki-NLP/Opus-MT) - Open neural machine translation models — study how production translation systems work [Python]
-* [**fairseq**](https://github.com/facebookresearch/fairseq) - Facebook AI Research's sequence-to-sequence toolkit with translation models [Python / PyTorch]
-
-### Build your own `OCR`
-
-* [**CRNN + CTC for OCR**](https://github.com/Holmeyoung/crnn-pytorch) - PyTorch implementation of CRNN with CTC loss for all-language OCR [Python / PyTorch]
-* [**PyTorch CRNN: Seq2Seq Digits Recognition with CTC**](https://codingvision.net/pytorch-crnn-seq2seq-digits-recognition-ctc) - Step-by-step tutorial building a CRNN for sequence recognition [Python / PyTorch]
-* [**Handwriting Recognition with PyTorch**](https://pylessons.com/handwriting-recognition-pytorch) - Building a handwriting recognition system from scratch [Python / PyTorch]
-* [**EasyOCR**](https://github.com/JaidedAI/EasyOCR) - Ready-to-use OCR supporting 80+ languages — study the architecture of a production OCR system [Python / PyTorch]
-* [**PaddleOCR**](https://github.com/PaddlePaddle/PaddleOCR) - Multilingual OCR toolkit — study text detection, recognition, and layout analysis pipelines [Python / PaddlePaddle]
-* [**Building a Handwriting Recognition System with CRNN**](https://medium.com/@pavitharan2020/building-a-handwriting-recognition-system-with-crnn-a-beginners-guide-58a51a46dd15) - Beginner's guide explaining CNN + RNN + CTC architecture [Python / PyTorch]
-
 ### Build your own `Fine-tuning / RLHF Pipeline`
 
 * [**LLMs-from-scratch: DPO from Scratch**](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb) - Sebastian Raschka's notebook implementing Direct Preference Optimization from scratch and applying it to a GPT-like LLM [Python / PyTorch]
@@ -252,6 +218,37 @@ If you're new here, this is the recommended learning path:
 * [**Integrating with Function Calling (Microsoft)**](https://github.com/microsoft/generative-ai-for-beginners/blob/main/11-integrating-with-function-calling/README.md) - Lesson 11 of Microsoft's 21-lesson course covering function calling from fundamentals to integration [Python]
 * [**How to Build a Custom MCP Server with TypeScript**](https://www.freecodecamp.org/news/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/) - freeCodeCamp handbook building an MCP server from scratch [TypeScript / MCP]
 * [**Build an MCP Server (Official Tutorial)**](https://modelcontextprotocol.io/docs/develop/build-server) - Official Model Context Protocol documentation for building MCP servers from scratch [Python / TypeScript / MCP]
+
+### Build your own `Autonomous Agent (RL)`
+
+* [**Spinning Up in Deep RL**](https://github.com/openai/spinningup) - OpenAI's educational resource with clean implementations of VPG, TRPO, PPO, DDPG, TD3, SAC [Python / PyTorch]
+* [**Reinforcement Learning (DQN) Tutorial**](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html) - Official PyTorch tutorial training a DQN agent on CartPole [Python / PyTorch]
+* [**Reinforcement Learning (PPO) with TorchRL**](https://pytorch.org/tutorials/intermediate/reinforcement_ppo.html) - Official PyTorch tutorial implementing PPO for the Inverted Pendulum [Python / PyTorch]
+* [**Q-Learning from Scratch in Python**](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) - Tabular Q-learning from scratch, showing every step from state space design to convergence [Python / Gymnasium]
+* [**Teach AI to Play Snake — RL with PyTorch**](https://www.python-engineer.com/posts/teach-ai-snake-reinforcement-learning/) - 4-part series building a DQN agent that learns to play Snake with Pygame [Python / PyTorch / Pygame]
+* [**CleanRL**](https://github.com/vwxyzjn/cleanrl) - Single-file implementations of RL algorithms with tracked experiments [Python / PyTorch]
+* [**Policy Gradient with PyTorch**](https://huggingface.co/blog/deep-rl-pg) - Hugging Face Deep RL Course chapter implementing REINFORCE from scratch [Python / PyTorch]
+* [**Deep Reinforcement Learning Course**](https://huggingface.co/learn/deep-rl-course/unit0/introduction) - Hugging Face's free course from fundamentals to advanced RL [Python / PyTorch]
+* [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) - Standard API for RL environments — build and test your own agents [Python]
+
+### Build your own `Translator`
+
+* [**NLP From Scratch: Translation with Seq2Seq and Attention**](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Official PyTorch tutorial implementing encoder-decoder with Bahdanau attention for translation [Python / PyTorch]
+* [**Sequence to Sequence Learning with Neural Networks**](https://github.com/bentrevett/pytorch-seq2seq) - 6 notebooks progressing from basic seq2seq to full Transformer for translation [Python / PyTorch]
+* [**Neural Machine Translation with Transformer (TensorFlow)**](https://www.tensorflow.org/text/tutorials/transformer) - Full Transformer from scratch for Portuguese-to-English translation [Python / TensorFlow]
+* [**The Annotated Transformer**](https://nlp.seas.harvard.edu/annotated-transformer/) - Harvard NLP's annotated implementation — the original Transformer was built for translation [Python / PyTorch]
+* [**Language Translation with nn.Transformer**](https://pytorch.org/tutorials/beginner/translation_transformer.html) - Official PyTorch tutorial building a translation model with Transformer [Python / PyTorch]
+* [**Helsinki-NLP/Opus-MT**](https://github.com/Helsinki-NLP/Opus-MT) - Open neural machine translation models — study how production translation systems work [Python]
+* [**fairseq**](https://github.com/facebookresearch/fairseq) - Facebook AI Research's sequence-to-sequence toolkit with translation models [Python / PyTorch]
+
+### Build your own `OCR`
+
+* [**CRNN + CTC for OCR**](https://github.com/Holmeyoung/crnn-pytorch) - PyTorch implementation of CRNN with CTC loss for all-language OCR [Python / PyTorch]
+* [**PyTorch CRNN: Seq2Seq Digits Recognition with CTC**](https://codingvision.net/pytorch-crnn-seq2seq-digits-recognition-ctc) - Step-by-step tutorial building a CRNN for sequence recognition [Python / PyTorch]
+* [**Handwriting Recognition with PyTorch**](https://pylessons.com/handwriting-recognition-pytorch) - Building a handwriting recognition system from scratch [Python / PyTorch]
+* [**EasyOCR**](https://github.com/JaidedAI/EasyOCR) - Ready-to-use OCR supporting 80+ languages — study the architecture of a production OCR system [Python / PyTorch]
+* [**PaddleOCR**](https://github.com/PaddlePaddle/PaddleOCR) - Multilingual OCR toolkit — study text detection, recognition, and layout analysis pipelines [Python / PaddlePaddle]
+* [**Building a Handwriting Recognition System with CRNN**](https://medium.com/@pavitharan2020/building-a-handwriting-recognition-system-with-crnn-a-beginners-guide-58a51a46dd15) - Beginner's guide explaining CNN + RNN + CTC architecture [Python / PyTorch]
 
 ---
 

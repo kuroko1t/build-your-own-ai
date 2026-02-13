@@ -1,0 +1,27 @@
+name: Report Broken Link
+description: Report a broken or outdated link
+title: "[Broken Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happens when you visit the link?
+      placeholder: "Returns 404 / redirects to error page / etc."
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested Replacement (optional)
+      placeholder: "https://..."

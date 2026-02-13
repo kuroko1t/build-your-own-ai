@@ -1,0 +1,78 @@
+name: Suggest a Tutorial
+description: Suggest a tutorial to add to the list
+title: "[Add] "
+labels: ["new-tutorial"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this tutorial belong to?
+      options:
+        - ChatGPT / LLM
+        - Image Generator
+        - Voice Assistant
+        - Code Copilot
+        - AI Agent
+        - RAG System
+        - Search Engine
+        - Recommendation Engine
+        - Object Detector
+        - Neural Network
+        - Transformer
+        - Fine-tuning / RLHF Pipeline
+        - Multimodal Model
+        - Text-to-Speech
+        - Embedding Model
+        - AI Tool Use / Function Calling
+        - Autonomous Agent (RL)
+        - Translator
+        - OCR
+        - New Category (describe below)
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Tutorial Title
+      placeholder: "e.g., Build GPT from Scratch"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Language / Framework
+      placeholder: "e.g., Python / PyTorch"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One-line description of what the tutorial covers
+      placeholder: "A step-by-step guide to building..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: quality
+    attributes:
+      label: Quality Checklist
+      options:
+        - label: The tutorial teaches how to build something from scratch
+          required: true
+        - label: The tutorial is freely accessible (no paywall)
+          required: true
+        - label: The code/content is functional and up-to-date
+          required: true
